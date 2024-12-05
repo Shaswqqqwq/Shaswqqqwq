@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Adventure Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .start-button {
+            background-color: #008CBA;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .start-button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Tom's Adventure Game!</h1>
+    <p>Join Tom on an exciting journey through mystical lands and challenging quests. Are you ready to help him?</p>
+    <button class="start-button" onclick="startGame()">Start Game</button>
+
+    <script>
+        function startGame() {
+            alert("The game is starting! Get ready for adventure!");
+        }
+    </script>
+</body>
+</html>
